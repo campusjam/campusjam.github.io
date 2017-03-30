@@ -26,11 +26,11 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 
 Mockups for the following five pages were implemented during M1:
 <ul>
-<li> Landing page
-<li> Profile page
-<li> Home page
-<li> Browse page
-<li> Event page
+<li> Landing page </li>
+<li> Profile page </li>
+<li> Home page </li>
+<li> Browse page </li>
+<li> Event page </li>
 </ul>
 
 

@@ -24,7 +24,14 @@ This milestone started on March 29, 2016 and is ongoing.
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages. 
 
-Mockups for the following four pages were implemented during M1:
+Mockups for the following five pages were implemented during M1:
+<ul>
+<li> Landing page
+<li> Profile page
+<li> Home page
+<li> Browse page
+<li> Event page
+</ul>
 
 
 Milestone 1 was implemented as [Campusjam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):

@@ -27,7 +27,7 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 Mockups for the following four pages were implemented during M1:
 
 
-Milestone 1 was implemented as [Campusjam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1)::
+Milestone 1 was implemented as [Campusjam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):
 
 
 

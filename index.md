@@ -36,12 +36,12 @@ Mockups for the following five pages were implemented during M1:
 
 Milestone 1 was implemented as [Campusjam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):
 
-![](images/issue_1_done.png)
+![](images/issue_1_done.PNG)
 
 Milestone 1 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M1](https://github.com/campusjam/campusjam/projects/1):
 
-![](images/m1.png)
+![](images/m1.PNG)
 
 Each issue was implemented in its own branch, and merged into master when completed:
 
-![](images/network-graph.png)
+![](images/network-graph.PNG)

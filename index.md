@@ -44,4 +44,4 @@ Milestone 1 consisted of six issues, and progress was managed via the [Campusjam
 
 Each issue was implemented in its own branch, and merged into master when completed:
 
-![](images/network-graph.PNG)
+![](images/network_graph.PNG)

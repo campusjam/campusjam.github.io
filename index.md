@@ -16,7 +16,7 @@ Campus Jam is a Meteor application providing musical profiles for the University
 
 The my profile page will look similar to this but with added tweaks:
 
-![](images/network_graph.PNG)
+![](images/my-profile-page.PNG)
 
 # Development History
 

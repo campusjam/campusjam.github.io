@@ -1,5 +1,5 @@
 
-[View on GitHub](https://github.com/campusjam/campusjam):
+[View on GitHub](https://github.com/campusjam/campusjam)
 
 # Table of contents
 

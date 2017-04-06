@@ -1,3 +1,6 @@
+
+[View on GitHub](https://github.com/campusjam/campusjam):
+
 # Table of contents
 
 * [About Campus Jam](#about-campus-jam)

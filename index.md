@@ -11,9 +11,12 @@
 # About Campus Jam
 
 
-Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
+Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community. When you come to the site, you are greeted a landing page.
 
 
+The my profile page will look similar to this but with added tweaks:
+
+![](images/network_graph.PNG)
 
 # Development History
 

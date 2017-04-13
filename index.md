@@ -39,7 +39,7 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 Mockups for the following five pages were implemented during M1:
 
 ![](images/landing.PNG)
-![](images/homepage.PNG)
+![](images/homepage.png)
 ![](images/profile.PNG)
 ![](images/events.PNG)
 ![](images/browse.PNG)

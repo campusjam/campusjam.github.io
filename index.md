@@ -6,6 +6,7 @@
 * [About Campus Jam](#about-campus-jam)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 2: UH CAS and Page Functionality](#milestone-2-uh-cas-and-page-functionality)
 
 
 # About Campus Jam
@@ -52,7 +53,7 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 ![](images/network_graph.PNG)
 
-## Milestone 2: Data model development 
+## Milestone 2: UH CAS and Page Functionality
 
 This milestone started April 14. 2017 and is ongoing.
 
@@ -68,5 +69,3 @@ Milestone 2 consisted of six issues, and progress was managed via the [Campusjam
 
 
 Each issue was implemented in its own branch, and merged into master when completed:
-
-

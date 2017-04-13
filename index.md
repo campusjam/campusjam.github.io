@@ -15,6 +15,15 @@ Campus Jam is a Meteor application providing musical profiles for the University
 
 This app is running on [Meteor](http://campusjam.meteorapp.com/).
 
+Upon arrival of the site, you will be greeted by the following landing page:
+![](images/landing.PNG)
+
+Anyone with a UH account can login to Cmpusjam by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
+
+Image coming soon ~
+
+Once authenticated, you can create a profile that provides a list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
+
 # Development History
 
 The development process for Campus Jam conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
@@ -37,15 +46,15 @@ Mockups for the following five pages were implemented during M1:
 
 Milestone 1 was implemented as [Campusjam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):
 
-![](images/issue_1_done.PNG)
+![](images/m1project.PNG)
 
 Milestone 1 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M1](https://github.com/campusjam/campusjam/projects/1):
 
-![](images/m1.PNG)
+![](images/m1issues.PNG)
 
 Each issue was implemented in its own branch, and merged into master when completed:
 
-![](images/network_graph.PNG)
+![](images/networkm1.PNG)
 
 ## Milestone 2: UH CAS and Page Functionality
 

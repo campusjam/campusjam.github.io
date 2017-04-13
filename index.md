@@ -26,7 +26,7 @@ The following sections document the development history of Campus Jam.
 
 ## Milestone 1: Mockup development
 
-This milestone started on March 29, 2016 and is ongoing.
+This milestone started on March 29, 2016 and ended on April 13, 2017.
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
 
@@ -51,3 +51,22 @@ Milestone 1 consisted of six issues, and progress was managed via the [Campusjam
 Each issue was implemented in its own branch, and merged into master when completed:
 
 ![](images/network_graph.PNG)
+
+## Milestone 2: Data model development 
+
+This milestone started April 14. 2017 and is ongoing.
+
+The goal of Milestone 2 is to add the UH CAS login system and to update all of the mockup pages for more functionality.
+
+
+Milestone 2 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
+
+
+
+Milestone 2 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
+
+
+
+Each issue was implemented in its own branch, and merged into master when completed:
+
+

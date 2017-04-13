@@ -11,7 +11,6 @@
 
 # About Campus Jam
 
-
 Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community. When you come to the site, you are greeted a landing page.
 
 
@@ -55,7 +54,7 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 ## Milestone 2: UH CAS and Page Functionality
 
-This milestone started April 14. 2017 and is ongoing.
+This milestone started on April 14, 2017 and is ongoing.
 
 The goal of Milestone 2 is to add the UH CAS login system and to update all of the mockup pages for more functionality.
 

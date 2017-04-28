@@ -249,7 +249,7 @@ The goal of Milestone 2 is to add the UH CAS login system and to update all of t
 
 Milestone 2 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
 
-![](imges/m2project.PNG)
+![](images/m2project.PNG)
 
 Milestone 2 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
 

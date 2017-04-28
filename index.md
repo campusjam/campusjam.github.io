@@ -12,6 +12,8 @@
   * [Authentication](#authentication)
   * [Authorization](#authorization)
   * [Configuration](#configuration)
+  * [Quality Assurance](#quality-assurance)
+    * [ESLint](#eslint)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: UH CAS and Page Functionality](#milestone-2-uh-cas-and-page-functionality)
@@ -192,6 +194,19 @@ The [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) 
 
 BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json).
 
+## Quality Assurance
+
+### ESLint
+
+BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+meteor npm run lint
+```
+
+ESLint should run without generating any errors.  
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 
 # Development History
@@ -228,16 +243,33 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 ## Milestone 2: UH CAS and Page Functionality
 
-This milestone started on April 14, 2017 and is ongoing.
+This milestone started on April 14, 2017 and ended on April 27, 2017.
 
 The goal of Milestone 2 is to add the UH CAS login system and to update all of the mockup pages for more functionality.
 
-
 Milestone 2 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
 
-
+![](imges/m2project.PNG)
 
 Milestone 2 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
+
+![](images/m2issues.PNG)
+
+Each issue was implemented in its own branch, and merged into master when completed:
+
+![](images/networkm2.PNG)
+
+## Milestone 3: Collections and Page Functionality
+
+This milestone started on April 28, 2017 and is ongoing.
+
+The goal of Milestone 3 is to implement collections and add even more functionality to all of the pages.
+
+Milestone 3 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/3):
+
+
+
+Milestone 3 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
 
 
 

@@ -251,7 +251,7 @@ Milestone 2 was implemented as [Campusjam GitHub Milestone M2](https://github.co
 
 ![](images/m2project.PNG)
 
-Milestone 2 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
+Milestone 2 consisted of seven issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
 
 ![](images/m2issues.PNG)
 
@@ -263,7 +263,7 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 This milestone started on April 28, 2017 and is ongoing.
 
-The goal of Milestone 3 is to implement collections and add even more functionality to all of the pages.
+The goal of Milestone 3 is to implement collections and add even more functionality to all of the pages. Attempts have been made to implement collections in M2 but have not be completed. Therefore, main focus of M3 will be collections. We will also be gathering UH community members to test and give feedback on the app. 
 
 Milestone 3 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/3):
 

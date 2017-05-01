@@ -21,18 +21,32 @@
 
 # About Campus Jam
 
-Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community. When you come to the site, you are greeted a landing page.
+Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community.
 
 This app is running on [Meteor](http://campusjam.meteorapp.com/).
 
 Upon arrival of the site, you will be greeted by the following landing page:
 ![](images/landing.PNG)
 
-Anyone with a UH account can login to Cmpusjam by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
+Anyone with a UH account can login to Campusjam by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
 
-Image coming soon ~
+![](images/login.PNG)
 
-Once authenticated, you can create a profile that provides a list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
+After logging in, you will be greeted with your home page which displays events you created or joined, recommended users with same tastes, goals, or capabilities, and upcoming events you might be interested in:
+
+![](images/homepage.PNG)
+
+You can create or edit your profile that provides your contact info, tastes, capabilities, goals, and links to YouTube and SoundCloud if you have them:
+
+![](images/profile.PNG)
+
+You can browse for users by filtering tastes, capabilities, and goals:
+
+![](images/browse.PNG)
+
+You can create and join events in the events page:
+
+![](images/events.PNG)
 
 # Installation
 

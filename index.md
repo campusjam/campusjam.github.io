@@ -17,7 +17,7 @@
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: UH CAS and Page Functionality](#milestone-2-uh-cas-and-page-functionality)
-    * [Milestone 3: Collections and Page Functionality Functionality](#milestone-3-collections-and-page-functionality)
+  * [Milestone 3: Collections and Page Functionality Functionality](#milestone-3-collections-and-page-functionality)
 
 
 # About Campus Jam

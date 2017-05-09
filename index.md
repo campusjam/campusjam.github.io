@@ -94,8 +94,10 @@ client/
 imports/
   api/           # Define collection processing code (client + server side)
     base/
-    interest/
+    capability/
+    goal/
     profile/
+    taste/
   startup/       # Define code to run when system starts up (client-only, server-only)
     client/        
     server/        
@@ -136,12 +138,16 @@ import '/imports/ui/layouts/landing';
 import '/imports/ui/layouts/shared';
 import '/imports/ui/layouts/user';
 import '/imports/ui/pages/directory';
-import '/imports/ui/pages/filter';
+import '/imports/ui/pages/browse';
 import '/imports/ui/pages/landing';
 import '/imports/ui/pages/user';
+import '/imports/ui/pages/home';
+import '/imports/ui/pages/event';
 import '/imports/api/base';
 import '/imports/api/profile';
-import '/imports/api/interest';
+import '/imports/api/goal';
+import '/imports/api/capability';
+import '/imports/api/taste';
 import '/imports/ui/stylesheets/style.css';
 ```
 
@@ -179,7 +185,7 @@ Campusjam defines the following routes:
 
   * The `/` route goes to the public landing page.
   * The `/home` route goes to your home page.
-  * The `/my-profile` route goes to the profile page.
+  * The `/profile` route goes to the profile page.
   * The `/browse` route goes to the page to browse fellow users.
   * The `/event` route goes to the page to create and browse events.
 
@@ -276,16 +282,18 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 ## Milestone 3: Collections and Page Functionality
 
-This milestone started on April 28, 2017 and is ongoing.
+This milestone started on April 28, 2017 and ended on May 9, 2017.
 
 The goal of Milestone 3 is to implement collections and add even more functionality to all of the pages. Attempts have been made to implement collections in M2 but have not be completed. Therefore, main focus of M3 will be collections. We will also be gathering UH community members to test and give feedback on the app.
 
-Milestone 3 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/3):
+Milestone 3 was implemented as [Campusjam GitHub Milestone M3](https://github.com/campusjam/campusjam/milestone/3):
 
+![](images/m3project.PNG)
 
+Milestone 3 consisted of eight issues, and progress was managed via the [Campusjam GitHub Project M3](https://github.com/campusjam/campusjam/projects/3):
 
-Milestone 3 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
-
-
+![](images/m3issues.PNG)
 
 Each issue was implemented in its own branch, and merged into master when completed:
+
+![](images/networkm3.PNG)

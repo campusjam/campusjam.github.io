@@ -36,7 +36,7 @@ Anyone with a UH account can login to Campus Jam by clicking on the login button
 
 After logging in, you will be greeted with your home page which displays events you created or joined, recommended users with same tastes, goals, or capabilities, and upcoming events you might be interested in:
 
-![](images/homepage.PNG)
+![](images/homePage.png)
 
 You can create or edit your profile that provides your contact info, tastes, capabilities, goals, and links to YouTube and SoundCloud if you have them:
 

@@ -1,7 +1,7 @@
 
 # Table of contents
 
-* [About Campusjam](#about-campusjam)
+* [About Campus Jam](#about-campus-jam)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -232,7 +232,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 ## Initial User Study
 
-For this initial user review, we gathered five students that were from the University of Hawaii system and had working UH accounts in order to log in and access the application.
+For this initial user study, we gathered five students that attended University of Hawaii and had working UH accounts in order to log in and access the application.
 
 The reviews mostly touched upon the user friendliness of the interface and the relative difficulty of understanding the purpose of using such an application. All reviewers recommended that a new banner image for the application be chosen as the current one is still rather bloated and detracts from the overall aesthetics of the application. However, they liked the simplicity of the navigation menu and liked having everything laid out in front of them.
 

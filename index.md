@@ -34,11 +34,11 @@ Anyone with a UH account can login to Campus Jam by clicking on the login button
 
 ![](images/login.PNG)
 
-After logging in, you will be greeted with your home page which displays events you created or joined, recommended users with same tastes, goals, or capabilities, and upcoming events you might be interested in:
+After logging in, you will be redirected to the profile page where you can edit your profile that provides your contact info, tastes, capabilities, goals, and links to YouTube and SoundCloud if you have them:
 
 ![](images/homePage.png)
 
-You can create or edit your profile that provides your contact info, tastes, capabilities, goals, and links to YouTube and SoundCloud if you have them:
+The home page will display your profile with users in your community and any events that have been created:
 
 ![](images/profile.PNG)
 
@@ -234,11 +234,15 @@ It's significantly easier to do development with ESLint integrated directly into
 
 ## Initial User Study
 
-For this initial user study, we gathered five students that attended University of Hawaii and had working UH accounts in order to log in and access the application.
+For this initial user study, we gathered five students that attended University of Hawaii and had working UH accounts in order to log in and access the application. After we completed application and tested to make sure the app worked on the Meteor deployment, we sent the users the link to test the app.
 
-The reviews mostly touched upon the user friendliness of the interface and the relative difficulty of understanding the purpose of using such an application.  overall aesthetics of the application. However, they liked the simplicity of the navigation menu and liked having everything laid out in front of them.
+The reviews mostly touched upon the user friendliness of the interface and lack of features. There was good feedback on the overall aesthetics of the application. Though, there were a few comments regarding the fading out green to the dark green as you scroll down the page.
 
-The reviewers thought that they liked the concept and intended use of the application and approved of the ability to "follow" a user in order to keep track of musicians and make friends. They recommended that the navigation should be placed at the top and that the picture was rather distracting. They also recommended that there be a announcements page that they should land in first to see any updated content. They would also like to see a forum implemented so that others could talk and hang out online. There should also be a specific area dedicated to technical support, which could be implemented into the forum.
+The most positive feedback was that the interface was clean and simple. The reviewers liked the home page because it shows everyone's tastes in music and what they have in common as well as get updates on events. They also liked the easiness and straight forwardness to set up an account and create events. One thing the reviewers really liked was the use of CAS login so they didn't have to make accounts.
+
+The most common negative feedback was the lack of features. Some comments about the browsing page was that it took a while to unselect the options. There was some concern about not being able to edit and delete events. One reviewer said the website was kind of plain and some motion picture effects would interest some people.
+
+
 
 # Development History
 

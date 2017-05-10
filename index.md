@@ -296,12 +296,12 @@ The goal of Milestone 3 is to implement collections and add even more functional
 
 Milestone 3 was implemented as [Campus Jam GitHub Milestone M3](https://github.com/campusjam/campusjam/milestone/3):
 
-![](images/m3project.PNG)
+![](images/m3project.png)
 
 Milestone 3 consisted of eight issues, and progress was managed via the [Campus Jam GitHub Project M3](https://github.com/campusjam/campusjam/projects/3):
 
-![](images/m3issues.PNG)
+![](images/m3issues.png)
 
 Each issue was implemented in its own branch, and merged into master when completed:
 
-![](images/networkm3.PNG)
+![](images/networkm3.png)

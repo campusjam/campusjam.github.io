@@ -96,6 +96,7 @@ imports/
   api/           # Define collection processing code (client + server side)
     base/
     capability/
+    event/
     goal/
     profile/
     taste/
@@ -149,6 +150,7 @@ import '/imports/api/profile';
 import '/imports/api/goal';
 import '/imports/api/capability';
 import '/imports/api/taste';
+import '/imports/api/event';
 import '/imports/ui/stylesheets/style.css';
 ```
 
@@ -234,7 +236,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 For this initial user study, we gathered five students that attended University of Hawaii and had working UH accounts in order to log in and access the application.
 
-The reviews mostly touched upon the user friendliness of the interface and the relative difficulty of understanding the purpose of using such an application. All reviewers recommended that a new banner image for the application be chosen as the current one is still rather bloated and detracts from the overall aesthetics of the application. However, they liked the simplicity of the navigation menu and liked having everything laid out in front of them.
+The reviews mostly touched upon the user friendliness of the interface and the relative difficulty of understanding the purpose of using such an application.  overall aesthetics of the application. However, they liked the simplicity of the navigation menu and liked having everything laid out in front of them.
 
 The reviewers thought that they liked the concept and intended use of the application and approved of the ability to "follow" a user in order to keep track of musicians and make friends. They recommended that the navigation should be placed at the top and that the picture was rather distracting. They also recommended that there be a announcements page that they should land in first to see any updated content. They would also like to see a forum implemented so that others could talk and hang out online. There should also be a specific area dedicated to technical support, which could be implemented into the forum.
 
@@ -252,11 +254,11 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 
 Mockups for the following five pages were implemented during M1:
 
-![](images/landing.PNG)
-![](images/homepage.PNG)
-![](images/profile.PNG)
-![](images/events.PNG)
-![](images/browse.PNG)
+![](images/m1landing.PNG)
+![](images/m1homepage.PNG)
+![](images/m1profile.PNG)
+![](images/m1events.PNG)
+![](images/m1browse.PNG)
 
 Milestone 1 was implemented as [Campus Jam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):
 

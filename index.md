@@ -14,6 +14,7 @@
   * [Configuration](#configuration)
   * [Quality Assurance](#quality-assurance)
     * [ESLint](#eslint)
+  * [Initial User Study](#initial-user-study)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: UH CAS and Page Functionality](#milestone-2-uh-cas-and-page-functionality)
@@ -229,6 +230,13 @@ ESLint should run without generating any errors.
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
+## Initial User Study
+
+For this initial user review, we gathered five students that were from the University of Hawaii system and had working UH accounts in order to log in and access the application.
+
+The reviews mostly touched upon the user friendliness of the interface and the relative difficulty of understanding the purpose of using such an application. All reviewers recommended that a new banner image for the application be chosen as the current one is still rather bloated and detracts from the overall aesthetics of the application. However, they liked the simplicity of the navigation menu and liked having everything laid out in front of them.
+
+The reviewers thought that they liked the concept and intended use of the application and approved of the ability to "follow" a user in order to keep track of musicians and make friends. They recommended that the navigation should be placed at the top and that the picture was rather distracting. They also recommended that there be a announcements page that they should land in first to see any updated content. They would also like to see a forum implemented so that others could talk and hang out online. There should also be a specific area dedicated to technical support, which could be implemented into the forum.
 
 # Development History
 

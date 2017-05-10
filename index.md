@@ -46,7 +46,7 @@ You can browse for users by filtering tastes, capabilities, and goals:
 
 ![](images/browse.PNG)
 
-You can create and join events in the events page:
+You can create events in the events page:
 
 ![](images/events.PNG)
 

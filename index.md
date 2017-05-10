@@ -44,7 +44,7 @@ You can create or edit your profile that provides your contact info, tastes, cap
 
 You can browse for users by filtering tastes, capabilities, and goals:
 
-![](images/browsePage.png)
+![](images/Browse.png)
 
 You can create events in the events page:
 

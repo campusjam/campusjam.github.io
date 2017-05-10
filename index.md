@@ -48,7 +48,7 @@ You can browse for users by filtering tastes, capabilities, and goals:
 
 You can create events in the events page:
 
-![](images/events.PNG)
+![](images/events.png)
 
 # Installation
 

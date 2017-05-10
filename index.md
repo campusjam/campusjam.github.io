@@ -282,7 +282,7 @@ This milestone started on April 14, 2017 and ended on April 27, 2017.
 
 The goal of Milestone 2 is to add the UH CAS login system and to update all of the mockup pages for more functionality.
 
-Milestone 2 was implemented as [Campusj= Jam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
+Milestone 2 was implemented as [Campus Jam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
 
 ![](images/m2project.PNG)
 

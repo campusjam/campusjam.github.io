@@ -1,7 +1,7 @@
 
 # Table of contents
 
-* [About Campus Jam](#about-campus-jam)
+* [About Campusjam](#about-campusjam)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -21,9 +21,9 @@
   * [Milestone 3: Collections and Page Functionality](#milestone-3-collections-and-page-functionality)
 
 
-# About Campus Jam
+# About Campusjam
 
-Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community.
+Campusjam is a Meteor application providing musical profiles for the University of Hawaii community.
 
 This app is running on [Meteor](http://campusjam.meteorapp.com/).
 
@@ -240,9 +240,9 @@ The reviewers thought that they liked the concept and intended use of the applic
 
 # Development History
 
-The development process for Campus Jam conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
+The development process for Campusjam conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
 
-The following sections document the development history of Campus Jam.
+The following sections document the development history of Campusjam.
 
 ## Milestone 1: Mockup development
 

@@ -21,16 +21,16 @@
   * [Milestone 3: Collections and Page Functionality](#milestone-3-collections-and-page-functionality)
 
 
-# About Campusjam
+# About Campus Jam
 
-Campusjam is a Meteor application providing musical profiles for the University of Hawaii community.
+Campus Jam is a Meteor application providing musical profiles for the University of Hawaii community.
 
 This app is running on [Meteor](http://campusjam.meteorapp.com/).
 
 Upon arrival of the site, you will be greeted by the following landing page:
 ![](images/landing.PNG)
 
-Anyone with a UH account can login to Campusjam by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
+Anyone with a UH account can login to Campus Jam by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
 
 ![](images/login.PNG)
 
@@ -54,7 +54,7 @@ You can create events in the events page:
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of campusjam](https://github.com/ics-software-engineering/meteor-application-template/archive/master.zip), or clone it using git.
+Second, [download a copy of Campus Jam](https://github.com/campusjam/campusjam/archive/master.zip), or clone it using git.
 
 Third, cd into the app/ directory and install libraries with:
 
@@ -172,7 +172,7 @@ This system adopts the following naming conventions:
 
 The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
-The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are located in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are located in the client/ directory).
+The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://github.com/campusjam/campusjam/tree/master/app/client/lib/semantic-ui) directory. Because they are located in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are located in the client/ directory).
 
 Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/campusjam/campusjam/blob/master/app/imports/startup/client/router.js) uses "triggers" to add an remove the appropriate classes from the body element when a page is visited and then left by the user.
 
@@ -180,9 +180,9 @@ Note that the user pages contain a menu fixed to the top of the page, and thus t
 
 For display and navigation among its five pages, the application uses [Flow Router](https://github.com/kadirahq/flow-router).
 
-Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
+Routing is defined in [imports/startup/client/router.js](https://github.com/campusjam/campusjam/blob/master/app/imports/startup/client/router.js).
 
-Campusjam defines the following routes:
+Campus Jam defines the following routes:
 
   * The `/` route goes to the public landing page.
   * The `/home` route goes to your home page.
@@ -196,7 +196,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json).
 
-Anyone with a UH account can login and use Campusjam to create a portfolio.  A profile document is created for them if none already exists.
+Anyone with a UH account can login and use Campus Jam to create a portfolio.  A profile document is created for them if none already exists.
 
 ## Authorization
 
@@ -214,13 +214,13 @@ The [config](https://github.com/campusjam/campusjam/tree/master/config) director
 
 The [.gitignore](https://github.com/campusjam/campusjam/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
-campusjam checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/campusjam/campusjam/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/campusjam/campusjam/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/campusjam/campusjam/blob/master/app/private/database/initial-collection-data.json).
+Campus Jam checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/campusjam/campusjam/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/campusjam/campusjam/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/campusjam/campusjam/blob/master/app/private/database/initial-collection-data.json).
 
 ## Quality Assurance
 
 ### ESLint
 
-Campusjam includes a [.eslintrc](https://github.com/campusjam/campusjam/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+Campus Jam includes a [.eslintrc](https://github.com/campusjam/campusjam/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -240,9 +240,9 @@ The reviewers thought that they liked the concept and intended use of the applic
 
 # Development History
 
-The development process for Campusjam conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
+The development process for Campus Jam conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314s17/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
 
-The following sections document the development history of Campusjam.
+The following sections document the development history of Campus Jam.
 
 ## Milestone 1: Mockup development
 
@@ -258,11 +258,11 @@ Mockups for the following five pages were implemented during M1:
 ![](images/events.PNG)
 ![](images/browse.PNG)
 
-Milestone 1 was implemented as [Campusjam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):
+Milestone 1 was implemented as [Campus Jam GitHub Milestone M1](https://github.com/campusjam/campusjam/milestone/1):
 
 ![](images/m1project.PNG)
 
-Milestone 1 consisted of six issues, and progress was managed via the [Campusjam GitHub Project M1](https://github.com/campusjam/campusjam/projects/1):
+Milestone 1 consisted of six issues, and progress was managed via the [Campus Jam GitHub Project M1](https://github.com/campusjam/campusjam/projects/1):
 
 ![](images/m1issues.PNG)
 
@@ -276,11 +276,11 @@ This milestone started on April 14, 2017 and ended on April 27, 2017.
 
 The goal of Milestone 2 is to add the UH CAS login system and to update all of the mockup pages for more functionality.
 
-Milestone 2 was implemented as [Campusjam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
+Milestone 2 was implemented as [Campusj= Jam GitHub Milestone M2](https://github.com/campusjam/campusjam/milestone/2):
 
 ![](images/m2project.PNG)
 
-Milestone 2 consisted of seven issues, and progress was managed via the [Campusjam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
+Milestone 2 consisted of seven issues, and progress was managed via the [Campus Jam GitHub Project M2](https://github.com/campusjam/campusjam/projects/2):
 
 ![](images/m2issues.PNG)
 
@@ -294,11 +294,11 @@ This milestone started on April 28, 2017 and ended on May 9, 2017.
 
 The goal of Milestone 3 is to implement collections and add even more functionality to all of the pages. Attempts have been made to implement collections in M2 but have not be completed. Therefore, main focus of M3 will be collections. We will also be gathering UH community members to test and give feedback on the app.
 
-Milestone 3 was implemented as [Campusjam GitHub Milestone M3](https://github.com/campusjam/campusjam/milestone/3):
+Milestone 3 was implemented as [Campus Jam GitHub Milestone M3](https://github.com/campusjam/campusjam/milestone/3):
 
 ![](images/m3project.PNG)
 
-Milestone 3 consisted of eight issues, and progress was managed via the [Campusjam GitHub Project M3](https://github.com/campusjam/campusjam/projects/3):
+Milestone 3 consisted of eight issues, and progress was managed via the [Campus Jam GitHub Project M3](https://github.com/campusjam/campusjam/projects/3):
 
 ![](images/m3issues.PNG)
 

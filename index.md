@@ -190,7 +190,7 @@ Campus Jam defines the following routes:
   * The `/home` route goes to your home page.
   * The `/profile` route goes to the profile page.
   * The `/browse` route goes to the page to browse fellow users.
-  * The `/event` route goes to the page to create and browse events.
+  * The `/event` route goes to the page to create events.
 
 ## Authentication
 
